@@ -1,0 +1,17 @@
+.lead__group4 {
+  width: 95.25%;
+  height: 42.75%;
+  margin: 9.2% 2.5% 27%;
+  background-image: url(../../../images/Group4.png);
+  background-size: cover;
+  position: absolute;
+  z-index: 2;
+}
+
+@media screen and (max-width: 320px) {
+  .lead__group4 {
+    width: 304.74px;
+    height: 85.53px;
+    margin: 29.34px 9.69px 85.14px 7.57px;
+  }
+}

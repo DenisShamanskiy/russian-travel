@@ -1,0 +1,37 @@
+.places__image {
+  width: 35.9375vw;
+  max-width: 690px;
+  height: 35.9375vw;
+  max-height: 690px;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__image {
+    width: 42.96875vw;
+    max-width: 440px;
+    height: 42.96875vw;
+    max-height: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__image {
+    width: 44.27vw;
+    max-width: 340px;
+    height: 44.27vw;
+    max-height: 340px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .places__image {
+    width: 320px;
+    height: 320px;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .places__image {
+    margin: 0 auto;
+  }
+}

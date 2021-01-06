@@ -1,0 +1,6 @@
+.places__list {
+  padding: 0;
+  padding-inline-start: unset;
+  list-style-type: none;
+  margin: 0;
+}

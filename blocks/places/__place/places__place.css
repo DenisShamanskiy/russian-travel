@@ -1,0 +1,38 @@
+.places__place {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 46.75% 1fr;
+  grid-template-rows: 1fr;
+  gap: 48px 40px;
+  margin-top: 80px;
+}
+
+.places__place:first-child {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__place {
+    grid-template-columns: 47.41% 1fr;
+    grid-template-rows: 1fr;
+    gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__place {
+    grid-template-columns: 47.22% 1fr;
+    grid-template-rows: 1fr;
+    gap: 48px 28px;
+    margin-top: 12.45%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .places__place {
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+    gap: 32px;
+    margin-top: 50px;
+  }
+}
