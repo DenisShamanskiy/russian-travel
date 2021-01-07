@@ -1,6 +1,5 @@
 .places__title {
   max-width: 460px;
-  min-height: 152px;
   margin: 0;
   font-family: "Inter";
   font-style: normal;
@@ -16,10 +15,9 @@
   }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 880px) {
   .places__title {
     max-width: 340px;
-    min-height: 92px;
     font-size: 42px;
     line-height: 110%;
   }
@@ -28,7 +26,6 @@
 @media screen and (max-width: 480px) {
   .places__title {
     width: 90%;
-    min-height: 35px;
     font-size: 32px;
     line-height: 109%;
     margin: 0 auto 0 0;
