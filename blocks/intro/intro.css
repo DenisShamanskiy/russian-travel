@@ -15,13 +15,18 @@
 @media screen and (max-width: 768px) {
   .intro {
     width: 93.75%;
-    margin: 11.45% auto 0;
+    margin: 88px auto 0;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .intro {
+    margin: 64px 16px 0;
   }
 }
 
 @media screen and (max-width: 320px) {
   .intro {
     width: 288px;
-    margin: 64px auto 0;
   }
 }

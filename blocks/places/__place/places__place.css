@@ -1,7 +1,7 @@
 .places__place {
   width: 100%;
   display: grid;
-  grid-template-columns: 46.75% 1fr;
+  grid-template-columns: 1fr minmax(348px, 484px);
   grid-template-rows: 1fr;
   gap: 48px 40px;
   margin-top: 80px;
@@ -13,22 +13,19 @@
 
 @media screen and (max-width: 1024px) {
   .places__place {
-    grid-template-columns: 47.41% 1fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr minmax(325px, 456px);
     gap: 48px 32px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places__place {
-    grid-template-columns: 47.22% 1fr;
-    grid-template-rows: 1fr;
     gap: 48px 28px;
     margin-top: 12.45%;
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 742px) {
   .places__place {
     grid-template-columns: 100%;
     grid-template-rows: 1fr;
