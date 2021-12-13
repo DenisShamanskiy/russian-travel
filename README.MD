@@ -1,10 +1,15 @@
 # Путешествия по России (Russian Travel)
 
+![Скриншот](russian-travel.png)
+
 ## Описание проекта:
 
-Данный проект - результат по изучению адаптивной вёрстки сайта под различные разрешения экранов.
+Учебный проект в Яндекс.Практикум.
+Результат изучения адаптивной вёрстки сайта под различные разрешения экранов.
 
-GitHub Pages: https://denisshamanskiy.github.io/russian-travel/
+Проект размещён на [GitHub Pages](https://denisshamanskiy.github.io/russian-travel/ "Путешествия по России")
+
+Макет в [Figma](https://www.figma.com/file/5S2WSbEFL6awjVWJ0NWL8Q/Sprint-3_-Russia-_-desktop-mobile?node-id=28503%3A0 "Макет в Figma")
 
 ## В проекте использовались:
 
